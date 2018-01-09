@@ -91,6 +91,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'transparent'
   },
   welcome: {
+    opacity: 0.7,
     backgroundColor: 'black',
     color: 'white',
     textShadowColor: 'grey',
@@ -146,12 +147,14 @@ const styles = StyleSheet.create({
     height: '15%',
     display: 'flex',
     justifyContent: 'center',
+    opacity: 0.7,
   },
   button: {
     borderWidth: 10,
     borderColor: 'white',
     borderRadius: 20,
     alignSelf: 'center',
+    opacity: 1,
   },
   text: {
     textShadowColor: 'grey',
@@ -163,7 +166,8 @@ const styles = StyleSheet.create({
     padding: 10,
     textAlign: 'center',
     fontSize: 25,
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    opacity: 1,
   },
   scroll: {
     position: 'absolute',
